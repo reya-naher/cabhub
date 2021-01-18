@@ -1,0 +1,491 @@
+/***************** Responsive device *****************/
+/* 
+Largest Device - 1400px
+Large Device - 1200px
+High Medium Device - 992px 
+Medium Device - 768px
+Low Medium Device - 576px
+Low Device - 480px
+Lowest Device - 320px
+Low Lowest Device - 290px
+*/
+/*===========================
+    start Header 
+===========================*/
+
+/*--------- 768px -------*/
+@media only screen and (max-width: 768px){
+    header{
+        padding: 50px 0;
+    }
+    .navbar-nav{
+        margin-top: 20px;
+    }
+    .nav-item{
+        margin-top: 5px;
+    }
+    .mt-5 {
+        margin-top: 5rem!important;
+    }
+}
+/*--------- 576px -------*/
+@media only screen and (max-width: 576px){
+    .mt-5 {
+        margin-top: 1rem!important;
+    }
+}
+/*--------- 480px -------*/
+@media only screen and (max-width: 480px){
+    .py-5 {
+        padding-top: 3rem!important;
+        padding-bottom: 0rem!important;
+    }
+}
+
+/*--------- 360px -------*/
+@media only screen and (max-width: 360px){
+    header {
+        height: 648px;
+    }
+    .cab .container {
+        padding: 30px 0px 50px 0px;
+    }
+}
+/*--------- 320px -------*/
+@media only screen and (max-width: 320px){
+    .header-info h1{
+        font-size: 35px;
+    }
+    .header-info p{
+        letter-spacing: 3px;
+    }
+}
+/*--------- 290px -------*/
+@media only screen and (max-width: 290px){
+    header{
+        height: 539px;
+    }
+    .header-info h1{
+        font-size: 33px;
+    }
+}
+/*=====End Header ======*/
+/*===========================
+    start Cab 
+===========================*/
+/*--------- 800px -------*/
+@media only screen and (max-width: 800px){
+    .cab .cab-left .btn-black{
+        margin-bottom: 50px;
+    }
+}
+/*--------- 768px -------*/
+@media only screen and (max-width: 768px){
+    .cab-right,.cab-left{
+        margin: 30px auto;
+    }
+}
+/*--------- 576px -------*/
+@media only screen and (max-width: 576px){
+    .cab .container {
+        padding: 130px 30px 110px 30px;
+    }
+}
+/*--------- 480px -------*/
+@media only screen and (max-width: 480px){
+    .cab-left h1{
+        font-size: 36px;
+    }
+    .cab .cab-left .btn-black{
+        margin-left: 150px;
+    }
+    .header-car{
+        padding-top: 80px;
+    }
+    .cab-left{
+        padding: 0px 20px;
+    }
+}
+/*--------- 414px -------*/
+@media only screen and (max-width: 414px){
+    .cab .cab-left .btn-black {
+        margin-left: 110px;
+    }
+}
+/*--------- 375px -------*/
+@media only screen and (max-width: 375px){
+    .cab .container {
+        padding: 30px 0px 50px 0px;
+    }
+    .cab .cab-left .btn-black {
+        margin-left: 88px;
+    }
+}
+/*--------- 360px -------*/
+@media only screen and (max-width: 360px){
+    .cab .cab-left .btn-black {
+        margin-left: 92px;
+    }
+}
+/*--------- 320px -------*/
+@media only screen and (max-width: 320px){
+    .cab .container {
+        padding: 30px 0px 50px 0px;
+    }
+    .cab-right{
+        width: 280px;
+    }
+    .cab-left h1 {
+        font-size: 24px;
+    }
+    .cab .cab-left .btn-black {
+        margin-left: 50px;
+    }
+}
+/*--------- 290px -------*/
+@media only screen and (max-width: 290px){
+    .cab-right{
+        width: 260px;
+    }
+    .cab-left h1 {
+        font-size: 26px;
+    }
+}
+
+/*=====End Cab ======*/
+/*===========================
+    start Card 
+===========================*/
+/*--------- 992px -------*/
+@media only screen and (max-width: 992px){
+    .card-star img{
+        position: absolute;
+        right: 0px;
+        top: 273px;
+    }
+}
+/*--------- 768px -------*/
+@media only screen and (max-width: 768px){
+    .cards{
+        margin-top:0px;
+    }
+    .card{
+        border-radius: 0;
+        border:none;
+        margin-top: 130px;
+    }
+}
+/*--------- 576px -------*/
+@media only screen and (max-width: 576px){
+    .card-star img{
+        position: absolute;
+        right: 0px;
+        top: 270px;
+    }
+}
+/*--------- 480px -------*/
+@media only screen and (max-width: 480px){
+    .card .btn{
+        margin: 20px 0px;
+    }
+    .card-star img {
+        position: absolute;
+        right: 0px;
+        top: 305px;
+    }
+}
+/*--------- 320px -------*/
+@media only screen and (max-width: 320px){
+    .card-star img {
+        position: absolute;
+        right: 0px;
+        top: 290px;
+    }
+}
+/*--------- 290px -------*/
+@media only screen and (max-width: 290px){
+    .card-star img {
+        position: absolute;
+        right: 0px;
+        top: 302px;
+    }
+}
+/*=====End Card ======*/
+/*===========================
+    start Content 
+===========================*/
+/*--------- 992px -------*/
+@media only screen and (max-width: 992px){
+    .content-info p{
+        font-size: 14px;
+    }
+}
+/*--------- 800px -------*/
+@media only screen and (max-width: 800px){
+    .content{
+        height: 927px;
+    }
+}
+
+/*--------- 768px -------*/
+@media only screen and (max-width: 768px){
+    .content{
+        height: 960px;
+    }
+    .content-info p{
+        font-size: 18px;
+    }
+    .content-btn{
+        margin-top: 50px;
+    }
+}
+/*--------- 640px -------*/
+@media only screen and (max-width: 640px){
+    .content{
+        height: 1060px;
+    }
+}
+/*--------- 576px -------*/
+@media only screen and (max-width: 576px){
+    .content{
+        height: 990px;
+    }
+    .content-info{
+        padding: 0px 20px;
+    }
+    .content-info p{
+        font-size: 16px;
+    }
+    .content-btn{
+        margin-top: 50px;
+    }
+}
+/*--------- 414px -------*/
+@media only screen and (max-width: 414px){
+    .content {
+        height: 1110px;
+    }
+}
+/*--------- 480px -------*/
+@media only screen and (max-width: 480px){
+    .content{
+        height: 1040px;
+    }
+}
+/*--------- 375px -------*/
+@media only screen and (max-width: 375px){
+    .content {
+        height: 1238px;
+    }
+}
+/*--------- 360px -------*/
+@media only screen and (max-width: 360px){
+    .content{
+        height: 1240px;
+    }
+}
+/*--------- 320px -------*/
+@media only screen and (max-width: 320px){
+    .content{
+        height: 1280px;
+    }
+    .content-info p{
+        font-size: 14px;
+    }
+    .content-text h4{
+        font-size: 20px;
+    }
+}
+/*--------- 290px -------*/
+@media only screen and (max-width: 290px){
+    .content{
+        height: 1480px;
+    }
+    .content-text h4{
+        font-size: 18px;
+    }
+}
+/*=====End Content ======*/
+/*===========================
+    start Service 
+===========================*/
+/*--------- 800px -------*/
+@media only screen and (max-width: 800px){
+    .service {
+        height: 1042px;
+    }
+}
+/*--------- 768px -------*/
+@media only screen and (max-width: 768px){
+    .service {
+        height: 1054px;
+    }
+}
+/*--------- 414px -------*/
+@media only screen and (max-width: 414px){
+    .service {
+        height: 950px;
+    }
+    .service-right {
+        margin: 38px 0px 0px 82px;
+    }
+    .app-store{
+        margin: 10px 3px;
+    }
+}
+/*--------- 375px -------*/
+@media only screen and (max-width: 375px){
+    .service {
+        height: 950px;
+    }
+    .service-right {
+        margin: 38px 0px 0px 82px;
+    }
+    .app-store{
+        margin: 10px 3px;
+    }
+}
+/*--------- 360px -------*/
+@media only screen and (max-width: 360px){
+    .app-store{
+        margin: 10px 3px;
+    }
+    .service-right {
+        margin: 38px 0px 0px 64px;
+    }
+}
+/*--------- 320px -------*/
+@media only screen and (max-width: 320px){
+    .service {
+        height: 954px;
+    }
+    .service-left{
+        padding: 0px 10px;
+    }
+    .col-6{
+        margin: 10px 40px;
+    }
+}
+/*--------- 290px -------*/
+@media only screen and (max-width: 290px){
+    .service {
+        height: 854px;
+    }
+}
+/*=====End Service ======*/
+/*===========================
+    start Testimonial 
+===========================*/
+/*--------- 800px -------*/
+@media only screen and (max-width: 800px){
+    .testimonial {
+        height: 822px;
+    }
+    .testimonial-box{
+        margin-bottom: 50px;
+    }
+}
+/*--------- 768px -------*/
+@media only screen and (max-width: 768px){
+    .testimonial {
+        height: 900px;
+    }
+}
+/*--------- 320px -------*/
+@media only screen and (max-width: 320px){
+    .testimonial {
+        height: 980px;
+    }
+    .testimonial-face h4{
+        font-size: 18px;
+    }
+    .testimonial-face h6{
+        font-size: 13px;
+    }
+}
+/*--------- 290px -------*/
+@media only screen and (max-width: 290px){
+    .testimonial {
+        height: 1080px;
+    }
+}
+/*=====End Testimonial ======*/
+/*===========================
+    start Info
+===========================*/
+/*--------- 768px -------*/
+@media only screen and (max-width: 768px){
+    .main-info h3{
+        font-size: 25px;
+    }
+}
+/*--------- 290px -------*/
+@media only screen and (max-width: 290px){
+    .main-info h1{
+        font-size: 40px;
+    }
+}
+/*=====End Info ======*/
+/*===========================
+    start contact
+===========================*/
+/*--------- 800px -------*/
+@media only screen and (max-width: 800px){
+    .contact{
+        height: 800px;
+    }
+    .contact .col-lg-4{
+        margin-bottom: 30px;
+    }
+}
+/*--------- 480px -------*/
+@media only screen and (max-width: 480px){
+    .contact{
+        height: 960px;
+        padding-left: 25px;
+    }
+    .contact .col-lg-4 h4{
+        font-size: 26px;
+    }
+    .contact .col-lg-4 p{
+        font-size: 18px;
+    }
+}
+/*--------- 375px -------*/
+@media only screen and (max-width: 375px){
+    .contact {
+        height: 1008px;
+    }
+    
+}
+/*--------- 360px -------*/
+@media only screen and (max-width: 360px){
+    .contact {
+        height: 1035px;
+    }
+    
+}
+/*--------- 320px -------*/
+@media only screen and (max-width: 320px){
+    .contact{
+        height: 1100px;
+    }
+    
+}
+/*--------- 290px -------*/
+@media only screen and (max-width: 290px){
+    .contact{
+        height: 1200px;
+    }
+    .contact .col-lg-4 h4{
+        font-size: 22px;
+    }
+    .fas.fa-robot{
+        margin-left: 20px;
+    }
+    .fab.fa-apple{
+        margin-left: 62px;
+    }
+    
+}
+/*=====End contact ======*/

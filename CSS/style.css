@@ -1,0 +1,298 @@
+/* *********************start framework********************************/
+*{
+    padding:0;
+    margin: 0;
+    outline:0;
+}
+a,li,a:hover{
+    list-style: none;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,ul,ol,button,input,p{
+    padding:0;
+    margin:0;
+}
+body{
+    color:#000000;
+    font-family: 'Lato', sans-serif;
+}
+/*-------- background-color ---------*/
+.bg-yellow{
+    background-color: #ffc61a;
+}
+.bg-gray{
+    background-color: #f5f4f2;
+}
+/*-------- text-weight --------------*/
+.fontW-900{
+    font-weight: 900;
+}
+/*-------- text-color --------------*/
+.text-yellow{
+    color: #ffc61a;
+}
+.text-dark{
+    color: #000000;
+}
+/*-------- black button --------------*/
+.btn-black{
+    font-family: 'Bebas Neue', cursive;
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #000000;
+    padding: .5rem 1.5rem;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+.btn-black:hover{
+    background-color: #000000;
+    color:  #ffc61a;
+}
+.btn-yellow{
+    font-family: 'Bebas Neue', cursive;
+    background-color: #ffc61a;
+    color: #000000;
+    border-color: #ffc61a;
+    padding: .5rem 1.5rem;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+/*===========================
+    start Header 
+===========================*/
+header{
+    background-image:url(../images/header/Header-bg.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+    height: 739px;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #000000;
+    background-color: #ffc61a;
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #000000;
+    background-color: #ffc61a;
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+.header-info h3,p{
+    font-weight: bold;
+}
+.header-info h1{
+    font-size: 50px;
+}
+.header-info p{
+   letter-spacing: 6px;
+   color:#ffffff;
+}
+/*===== End Header ======*/
+/*===========================
+    start Cab 
+===========================*/
+/* .cab{
+    height: 705;
+} */
+.cab .container{
+    padding: 130px 0px 110px 0px
+}
+.cab-left h1{
+    font-size: 45px;
+}
+.cab-left p{
+    color: #101010;
+}
+.cab-right {
+    background-color: #ffffff;
+    width: 380px;
+}
+.cab-right h1{
+    background-color: #000000;
+}
+.cab-right .form-control[type="text"]{
+    width: 49%;
+    display: inline-block;
+    margin-bottom: 20px;
+    border: 0;
+    border-bottom: 3px solid #e4e4e4;
+    border-radius: 0;
+}
+.cab-right .form-select{
+    border: 0;
+    border-bottom: 3px solid #e4e4e4;
+    border-radius: 0;    
+}
+.cab-right .form-control:focus,.cab-right .form-select:focus{
+    border-color: #ffc61a;
+    box-shadow:none;
+}
+/*=====End Cab ======*/
+/*===========================
+    start Card 
+===========================*/
+.cards{
+    margin-top: 140px;
+}
+.card{
+    border-radius: 0;
+    border:none;
+}
+.card-car img{
+    margin-top: -80px;
+}
+.card-star img{
+    position: absolute;
+    right: 0px;
+    top: 308px;
+}
+/*=====End Card ======*/
+/*===========================
+    start Content
+===========================*/
+.content{
+    background-image: url(../images/Content/content-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 748px;
+    padding-top: 74px;
+}
+.content-info{
+    margin-top: 68px;
+}
+.content-info img{
+    position: absolute;
+}
+.content-text{
+    position: relative;
+    margin-left: 125px;
+}
+.content-info p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.content-btn{
+    margin-top: 100px;
+}
+/*=====End Content ======*/
+/*===========================
+    start Service
+===========================*/
+.service{
+    height: 654px;
+}
+.service .col-lg-6{
+    padding-left: 30px;
+}
+.service-info{
+    margin-top: 62px;
+}
+.service-left{
+    margin-top: 78px;
+}
+.service-right{
+    margin: 38px 0px 0px 163px;
+}
+
+/*=====End Service ======*/
+/*===========================
+    start Testimonial
+===========================*/
+.testimonial{
+    background-image: url(../images/Testimonial/face-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 610px;
+}
+.testimonial-info{
+    margin: 100px 0px;
+}
+.testimonial-box{
+    background-color: #040707;
+    padding: 40px;   
+    border-radius: 50px;
+}
+.testimonial-face img{
+    position: absolute;
+}
+.testimonial-face h4,h6{
+    position: relative;
+    margin-left: 100px;
+}
+/*=====End Testimonial ======*/
+/*===========================
+    start Info
+===========================*/
+.info{
+    padding: 64px 0px 76px 0px;
+}
+.main-info h1{
+    font-size: 50px;
+}
+
+/*=====End Info ======*/
+/*===========================
+    start contact
+===========================*/
+.contact{
+    background-image: url(../images/Contact/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 431px;   
+    padding-top: 76px; 
+}
+.contact .col-lg-4{
+    padding-right: 70px;
+}
+.contact .col-lg-4 h4{
+    border-bottom: 7px solid #ffc61a;
+}
+.about-cabHub ul li a{
+    color: #ffc61a;
+    padding: 0 5px;
+    font-size: 20px;
+}
+.download span{
+    font-size: 20px;
+}
+.fas.fa-robot{
+    color: #ffffff;
+    font-size: 24px;
+    margin-left: 30px;
+}
+.fab.fa-apple{
+    color: #ffffff;
+    font-size: 33px;
+    margin-left: 72px;
+}
+.contact-info li i{
+    position: absolute;
+    font-size: 24px;
+}
+.contact-info li p{
+    position: relative;
+    margin-left: 50px;
+}
+
+/*=====End contact ======*/
+/*===========================
+    start Footer
+===========================*/
+footer{
+    background-color: #040300;
+}
+/*=====End Footer ======*/
